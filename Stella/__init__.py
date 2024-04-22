@@ -41,7 +41,7 @@ StellaCli = Client(
     session_name='StellaSession',
     api_id=6133145,
     api_hash="30d4307da4885a00c58089d5f5503b5b",
-    bot_token="5039137200:AAFaiHptGRFHlEVH1swgtjBZDvoQhfvE_3U"
+    bot_token="5619875667:AAGbvXd38MTEnHMK2IJcaNmar8_UoQLf4vo"
 )
 
 # MongoDatabase dns configurations
