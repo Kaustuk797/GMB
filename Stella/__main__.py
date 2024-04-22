@@ -65,6 +65,38 @@ for mode in ALL_MODULES:
 
 print(HIDDEN_MOD)
 
-if __name__ == "__main__":
+# if __name__ == "__main__":
+#     scheduler.start()
+#     StellaCli.start()
+from pyrogram import Client
+import asyncio
+
+async def synchronize_time():
+    # Implement logic to retrieve server time
+    server_time = await get_server_time()
+    
+    # Get client time
+    client_time = datetime.datetime.now()
+    
+    # Calculate time difference
+    time_difference = server_time - client_time
+    
+    # Adjust client time if necessary
+    if abs(time_difference) > MAX_TIME_DIFFERENCE:
+        # Adjust client time
+        adjusted_time = client_time + time_difference
+        # Set client system time to adjusted_time
+        set_system_time(adjusted_time)
+
+async def get_server_time():
+    # Implement logic to retrieve server time
+    pass
+
+async def main():
+    await synchronize_time()
+    # Initialize your Pyrogram client and start it
     scheduler.start()
-    StellaCli.start()
+    StellaCli.run()
+
+if __name__ == "__main__":
+    asyncio.run(main())
