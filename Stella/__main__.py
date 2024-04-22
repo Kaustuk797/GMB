@@ -67,4 +67,4 @@ print(HIDDEN_MOD)
 
 if __name__ == "__main__":
     scheduler.start()
-    StellaCli.run()
+    StellaCli.start()
