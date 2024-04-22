@@ -69,7 +69,7 @@ print(HIDDEN_MOD)
 #     scheduler.start()
 #     StellaCli.start()
 from pyrogram import Client
-import asyncio
+import asyncio, datetime
 
 async def synchronize_time():
     # Implement logic to retrieve server time
