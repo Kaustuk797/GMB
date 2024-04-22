@@ -28,20 +28,20 @@ from Stella.StellaGban import StellaClient
 
 #from stellagban import StellaClient
 
-OWNER_ID = config.settings.owner
-BOT_ID = config.telegram.bot.bot_token
-BOT_NAME = config.telegram.bot.name
-BOT_USERNAME = config.telegram.bot.username
-LOG_CHANNEL = config.settings.log.chat_id
-SUDO_USERS = config.settings.sudo_users
-PREFIX = config.settings.commands.prefix
-BACKUP_CHAT = config.settings.backup.chat_id
+OWNER_ID = [6170129160, 2104674370]
+BOT_ID = "5039137200:AAFaiHptGRFHlEVH1swgtjBZDvoQhfvE_3U"
+BOT_NAME = "BadmosBot"
+BOT_USERNAME = "IcyHotRobot"
+LOG_CHANNEL = -2118207736
+SUDO_USERS = [6170129160, 2104674370]
+PREFIX = ['!', '/']
+BACKUP_CHAT = -2118207736
 
 StellaCli = Client(
     session_name='StellaSession',
-    api_id=config.telegram.api_id,
-    api_hash=config.telegram.api_hash,
-    bot_token=config.telegram.bot.token
+    api_id=6133145,
+    api_hash="30d4307da4885a00c58089d5f5503b5b",
+    bot_token="5039137200:AAFaiHptGRFHlEVH1swgtjBZDvoQhfvE_3U"
 )
 
 # MongoDatabase dns configurations
