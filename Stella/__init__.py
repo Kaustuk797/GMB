@@ -29,7 +29,7 @@ from Stella.StellaGban import StellaClient
 #from stellagban import StellaClient
 
 OWNER_ID = config.settings.owner
-BOT_ID = config.telegram.bot.id
+BOT_ID = config.telegram.bot.bot_token
 BOT_NAME = config.telegram.bot.name
 BOT_USERNAME = config.telegram.bot.username
 LOG_CHANNEL = config.settings.log.chat_id
