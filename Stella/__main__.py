@@ -50,8 +50,8 @@ async def import_modules():
 
 async def main():
     await import_modules()
-    scheduler.start()
-    StellaCli.run()
+    await scheduler.start()
+    await StellaCli.run()
 
 if __name__ == "__main__":
     loop = asyncio.get_event_loop()
