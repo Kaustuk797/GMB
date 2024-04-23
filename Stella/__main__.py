@@ -78,7 +78,7 @@ async def get_server_time():
 async def main():
     await synchronize_time()
     # Initialize your Pyrogram client and start it
-    scheduler.start()
+    # scheduler.start()
     StellaCli.run()
 
 if __name__ == "__main__":
