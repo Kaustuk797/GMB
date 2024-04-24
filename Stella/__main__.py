@@ -59,5 +59,5 @@ async def import_modules():
 try:
     StellaCli.run()
 
-except:
-    pass
+except Exception as e:
+    print(f"error {e}")
