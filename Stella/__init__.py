@@ -31,7 +31,7 @@ from Stella.StellaGban import StellaClient
 OWNER_ID = [6170129160, 2104674370]
 BOT_ID = "5039137200:AAFaiHptGRFHlEVH1swgtjBZDvoQhfvE_3U"
 BOT_NAME = "BadmosBot"
-BOT_USERNAME = "IcyHotRobot"
+BOT_USERNAME = "Mizuu_testBot"
 LOG_CHANNEL = -2118207736
 SUDO_USERS = [6170129160, 2104674370]
 PREFIX = ['!', '/']
