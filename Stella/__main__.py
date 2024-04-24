@@ -57,6 +57,7 @@ async def import_modules():
     # loop = asyncio.get_event_loop()
     # loop.run_until_complete(main())
 try:
+    scheduler.start()
     StellaCli.run()
 
 except Exception as e:
