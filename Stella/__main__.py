@@ -48,11 +48,13 @@ async def import_modules():
         if hasattr(imported_module, "__user_info__"):
             USER_INFO.append(imported_module)
 
-async def main():
-    await import_modules()
+# async def main():
+    # await import_modules()
     # await scheduler.start()
-    await StellaCli.run()
+    # await StellaCli.run()
 
-if __name__ == "__main__":
-    loop = asyncio.get_event_loop()
-    loop.run_until_complete(main())
+# if __name__ == "__main__":
+    # loop = asyncio.get_event_loop()
+    # loop.run_until_complete(main())
+
+StellaCli.run()
