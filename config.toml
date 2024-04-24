@@ -25,4 +25,4 @@ chat_id = 2118207736
 chat_id = 2118207736
 
 [api.stella]
-api_key = None
+api_key = ""
