@@ -37,8 +37,7 @@ SUDO_USERS = [6170129160, 2104674370]
 PREFIX = ['!', '/']
 BACKUP_CHAT = -2118207736
 
-StellaCli = Client(
-    session_name='StellaSession',
+StellaCli = Client(
     api_id=6133145,
     api_hash="30d4307da4885a00c58089d5f5503b5b",
     bot_token="5619875667:AAGbvXd38MTEnHMK2IJcaNmar8_UoQLf4vo"
