@@ -47,7 +47,8 @@ StellaCli = Client(
 dns.resolver.default_resolver=dns.resolver.Resolver(configure=False)
 dns.resolver.default_resolver.nameservers=['8.8.8.8'] 
 
-StellaAPI = StellaClient(api_key=config.api.stella.api_key)
+#StellaAPI = #StellaClient(api_key=config.api.stella.api#_key)
+StellaAPI = ""
 
 # Async scheduler
 scheduler = AsyncIOScheduler()
